@@ -1,0 +1,103 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*h1 text*/
+nav h1 {
+    font-family: cursive ;
+    color: orange;
+    margin-left: 30px;
+}
+
+h1 span {
+    color: lightblue;
+}
+
+/*responsiveness*/
+@media (min-width:320px) and (max-width: 568px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    nav h1 {
+        margin-left: 10px;
+    }
+
+    div.col-sm-4 {
+        margin: 10px;
+    }
+
+    footer {
+        font-size: 11px;
+    }
+}
+
+/*nav bar */
+#nav {
+    margin-right: 30px;
+}
+
+/*nav bar text links*/
+nav li a {
+    color: orange;
+}
+
+/*h2 text*/
+.row h2 {
+    text-align: center;
+    font-family: Georgia;
+}
+
+/*horizontal rule*/
+#rule {
+    border: solid 0.5px dimgrey;
+    background-color: dimgrey !important;
+
+}
+
+/*first image*/
+img {
+    width:100%;
+    height:100%;
+    margin: 30px 0 0 0;
+}
+
+/*row of texts after first image*/
+.row {
+    background-color: white;
+    color: black;
+}
+
+/*standout text after main image*/
+.standout{
+    margin: 40px;
+    box-shadow: 0 0 20px black;
+    padding: 25px 10px 12px 12px;
+}
+
+/*advertisements*/
+
+h4 a {
+    color: black;
+    font-size: 15px;
+}
+
+/*for adjusting rows*/
+.col-sm-4 {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+/*footer*/
+footer {
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+}
